@@ -22,7 +22,7 @@ bot.on('ready', () => {
     console.log(' ');
     // Change this name to whatever you want below:
     bot.user.setUsername("Checkout URL Bot");
-    bot.user.setActivity('msg !help')
+    bot.user.setActivity('@washedgram')
 });
 bot.login(token);
 
