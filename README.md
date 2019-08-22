@@ -9,6 +9,7 @@ Basic setup for a bot that distributes URLs supplied by a Discord server admin t
 * if you already have a working/running Discord bot you can just use those credentials instead of making a new one
 2. Paste and save your Discord bot's token in the 'token' section of `config.json`. You can also change the prefix (character that precedes actionable bot commands) in this file; the default is `!`.
 3. Create 2 channels in your Discord server. One should be private and only accessible to the bot as well as admins/users who will supply checkout links to be distributed by the bot. The second should be a public channel where all members can view the URL "carts" that can be claimed.
+
 3a. Open `main.js` and replace the dashed line fields with the correct channel and bot user IDs. There are 4 fields you need to replace. To get these IDs, right-click the channel or bot name in Discord and click 'copy ID' and it will be copied to your clipboard.
 4. Install Node.js if you haven't yet: https://www.npmjs.com/get-npm
 5. Download the ZIP file for this repository, then open Terminal/Command Prompt/whatever console you use and execute the following code:
