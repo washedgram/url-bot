@@ -12,9 +12,7 @@ Basic setup for a bot that distributes URLs supplied by a Discord server admin t
 
 2. Paste and save your Discord bot's token in the 'token' section of `config.json`. You can also change the prefix (character that precedes actionable bot commands) in this file; the default is `!`.
 
-3. Create 2 channels in your Discord server. One should be private and only accessible to the bot as well as admins/users who will supply checkout links to be distributed by the bot. The second should be a public channel where all members can view the URL "carts" that can be claimed.
-
-3a. Open `main.js` and replace the dashed line fields with the correct channel and bot user IDs. There are 4 fields you need to replace. To get these IDs, right-click the channel or bot name in Discord and click 'copy ID' and it will be copied to your clipboard.
+3. Create 2 channels in your Discord server. One should be private and only accessible to the bot as well as admins/users who will supply checkout links to be distributed by the bot. The second should be a public channel where all members can view the URL "carts" that can be claimed. Next, open `main.js` and replace the dashed line fields with the correct channel and bot user IDs. There are 4 fields you need to replace. To get these IDs, right-click the channel or bot name in Discord and click 'copy ID' and it will be copied to your clipboard.
 
 4. Install Node.js if you haven't yet: https://www.npmjs.com/get-npm
 
@@ -53,3 +51,25 @@ Send me a message on Twitter (https://twitter.com/washedgram) for questions.
 ## Acknowledgements
 Thanks [Mitchel](https://twitter.com/mmtchl) for help smoothing out a kink or two in the first version.
 
+## License
+
+```MIT License
+  Copyright (c) 2020 washedgram
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
